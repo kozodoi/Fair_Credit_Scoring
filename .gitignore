@@ -1,3 +1,9 @@
 *.DS_store*
+
 *.__pycache__*
+
+*.Rhistory*
 *.ipynb_checkpoints*
+
+data/prepared
+results/intermediate
