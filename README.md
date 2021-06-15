@@ -5,7 +5,9 @@
 Codes and data accompanying the paper:
 
 `
-Kozodoi, N., Jacob, J., Lessmann, S. (2020). Fairness in Credit Scoring: Assessment, Implementation and Profit Implications (submitted to European Journal of Operational Research)
+Kozodoi, N., Jacob, J., Lessmann, S. (2020). 
+Fairness in Credit Scoring: Assessment, Implementation and Profit Implications 
+(submitted to European Journal of Operational Research)
 `
 
 
