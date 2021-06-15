@@ -1,8 +1,12 @@
 # Fair Credit Scoring
 
-Codes and data accompanying the paper: *Kozodoi, N., Jacob, J., Lessmann, S. (2020). Fairness in Credit Scoring: Assessment, Implementation and Profit Implications (submitted to European Journal of Operational Research)*
-
 ![pipeline](/output/fig_pipeline.jpg)
+
+Codes and data accompanying the paper:
+
+`
+Kozodoi, N., Jacob, J., Lessmann, S. (2020). Fairness in Credit Scoring: Assessment, Implementation and Profit Implications (submitted to European Journal of Operational Research)
+`
 
 
 ## Summary
@@ -17,7 +21,7 @@ The empirical results substantiate the evaluation of fairness measures, identify
 This repo contains codes, files and data sets that allow reproducing the results presented in the paper, performing additional analyses and extending the experimental setup. The codes provide implementations of eight fairness processors on seven credit scoring data sets. Further details on the modeling pipeline are provided in the paper as well as in the codes.
 
 
-## Project structure
+## Repo structure
 
 The repo has the following structure:
 - `codes/`: Python notebooks and R codes implementing data processing, fairness algorithms and analysis of the results.
