@@ -65,18 +65,19 @@ conda activate fairness
 ### Reproducing results
 
 Reproducing results presented in the paper and carrying out additional analysis involves the following steps:
-1. Updating working paths in `code_00_working_paths.R`.
-2. Executing `code_14_results.R` to perform analysis of the results and save outputs in `output/`.
+1. Update working paths in `code_00_working_paths.R`.
+2. Execute `code_14_results.R` to perform analysis of the results and save outputs in `output/`.
 
 
 ### Extending experimental setup
 
 Modifying the experimental setup requires the following:
-1. Updating working paths in `code_00_working_paths.R`.
-2. Executing `code_01_data_partitioning.ipynb` to process and partition each data set.
-3. Adjusting experimental parameters specified in `functions/`.
-4. Executing the modeling codes according to their name order for each of the data sets.
-5. Executing `code_14_results.R` to perform analysis of the results and save outputs in `output/`.
+1. Make sure the raw data sets are located in the `data/raw/` folder.
+2. Update working paths in `code_00_working_paths.R`.
+3. Execute `code_01_data_partitioning.ipynb` to process and partition each data set.
+4. Adjust experimental parameters specified in `functions/`.
+5. Execute the modeling codes according to their name order for each of the data sets.
+6. Execute `code_14_results.R` to perform analysis of the results and save outputs in `output/`.
 
 
 ## Data sets

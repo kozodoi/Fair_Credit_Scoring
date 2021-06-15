@@ -9,4 +9,7 @@ The experiments are performed on seven credit scoring data sets:
 - `bene` - obtained from: *Baesens, B., Van Gestel, T., Viaene, S., Stepanova, M., Suykens, J., & Vanthienen, J. (2003). Benchmarking state-of-the-art classification algorithms for credit scoring. Journal of the operational research society, 54(6), 627-635.*
 - `uk` - obtained from: *Baesens, B., Van Gestel, T., Viaene, S., Stepanova, M., Suykens, J., & Vanthienen, J. (2003). Benchmarking state-of-the-art classification algorithms for credit scoring. Journal of the operational research society, 54(6), 627-635.*
 
-The raw data sets `bene` and `uk` are subject to an NDA and are not included in this repo. Data set `homecredit` is not included due to size limitation.
+# Notes
+
+1. Data set `homecredit` is included as a `.zip` archive due to size limitation. Please extract `homecredit.csv` from the archive before working with the codes.
+2. Data sets `bene` and `uk` are subject to an NDA and are not included in this public repo. Please contact the authors to request access.
