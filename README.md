@@ -2,12 +2,12 @@
 
 ![pipeline](/output/fig_pipeline.jpg)
 
-Codes, results and data accompanying the paper:
+Code and results accompanying the paper:
 
 ```
-Kozodoi, N., Jacob, J., Lessmann, S. (2020). 
-Fairness in Credit Scoring: Assessment, Implementation and Profit Implications 
-(submitted to European Journal of Operational Research)
+Kozodoi, N., Jacob, J., Lessmann, S. (2021).
+Fairness in Credit Scoring: Assessment, Implementation and Profit Implications
+European Journal of Operational Research [[https://doi.org/10.1016/j.ejor.2021.06.023]](https://doi.org/10.1016/j.ejor.2021.06.023)
 ```
 
 The preprint of the paper is available [on ArXiV](https://arxiv.org/abs/2103.01907).
@@ -76,7 +76,7 @@ Reproducing results presented in the paper and carrying out additional analysis 
 ### Extending experimental setup
 
 Modifying the experimental setup requires the following:
-1. Make sure the raw data sets are located in the `data/raw/` folder.
+1. Place the raw data sets in the `data/raw/` folder (see [here](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) for details).
 2. Update working paths in `code_00_working_paths.R`.
 3. Execute `code_01_data_partitioning.ipynb` to process and partition each data set.
 4. Adjust experimental parameters specified in `functions/`.
@@ -89,10 +89,10 @@ Modifying the experimental setup requires the following:
 The experiments are performed on seven credit scoring data sets:
 - `german` - available at [the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)).
 - `taiwan` - available at [the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
-- `pakdd` - availbale from [PAKDD 2010 Data Mining Competition](https://www.kdnuggets.com/2010/03/f-pakdd-2010-data-mining-competition.html).
-- `gmsc` - availbale from [Kaggle Give Me Some Credit competition](https://kaggle.com/c/givemesomecredit]).
-- `homecredit` - availbale from [Kaggle Home Credit Default Risk competition](https://kaggle.com/c/home-credit-default-risk).
+- `pakdd` - available from [PAKDD 2010 Data Mining Competition](https://www.kdnuggets.com/2010/03/f-pakdd-2010-data-mining-competition.html).
+- `gmsc` - available from [Kaggle Give Me Some Credit competition](https://kaggle.com/c/givemesomecredit]).
+- `homecredit` - available from [Kaggle Home Credit Default Risk competition](https://kaggle.com/c/home-credit-default-risk).
 - `bene` - obtained from: *Baesens, B., Van Gestel, T., Viaene, S., Stepanova, M., Suykens, J., & Vanthienen, J. (2003). Benchmarking state-of-the-art classification algorithms for credit scoring. Journal of the operational research society, 54(6), 627-635.*
 - `uk` - obtained from: *Baesens, B., Van Gestel, T., Viaene, S., Stepanova, M., Suykens, J., & Vanthienen, J. (2003). Benchmarking state-of-the-art classification algorithms for credit scoring. Journal of the operational research society, 54(6), 627-635.*
 
-The raw data sets `bene` and `uk` are subject to an NDA and are not included in this repo.
+Note: to respect the terms of use of the corresponding data sets and adhere to the file size limit, the raw data is not included in the repo. Please refer to the [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) in the data folder for instructions on downloading the data.
