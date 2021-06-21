@@ -5,5 +5,20 @@
 *.Rhistory*
 *.ipynb_checkpoints*
 
-data/prepared
-results/intermediate
+data/raw/bene.csv
+data/raw/german.csv
+data/raw/gmsc.csv
+data/raw/homecredit.csv
+data/raw/pkdd.csv
+data/raw/taiwan.csv
+data/raw/uk.csv
+
+data/prepared/bene_*
+data/prepared/german_*
+data/prepared/gmsc_*
+data/prepared/homecredit_*
+data/prepared/pkdd_*
+data/prepared/taiwan_*
+data/prepared/uk_*
+
+results/intermediate/IMAGE_*
