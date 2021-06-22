@@ -1,4 +1,4 @@
-# Fair Credit Scoring
+# Fair ML in Credit Scoring
 
 ![pipeline](/output/fig_pipeline.jpg)
 
@@ -15,7 +15,12 @@ The paper is available at the [publisher's website](https://doi.org/10.1016/j.ej
 
 ## Summary
 
-The rise of algorithmic decision-making has spawned much research on fair machine learning (ML). Financial institutions use ML for building risk scorecards that support a range of credit-related decisions. Yet, the literature on fair ML in credit scoring is scarce. The paper makes three contributions. First, we revisit statistical fairness criteria and examine their adequacy for credit scoring. Second, we catalog algorithmic options for incorporating fairness goals in the ML model development pipeline. Last, we empirically compare different fairness processors in a profit-oriented credit scoring context using real-world data. The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring the fairness of a scorecard. We also find fair in-processors to deliver a good balance between profit and fairness and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost. 
+The rise of algorithmic decision-making has spawned much research on fair machine learning (ML). Financial institutions use ML for building risk scorecards that support a range of credit-related decisions. The paper makes three contributions:
+1. We revisit statistical fairness criteria and examine their adequacy for credit scoring.
+2. We catalog algorithmic options for incorporating fairness goals in the ML model development pipeline. 
+3. We empirically compare different fairness processors in a profit-oriented credit scoring context using real-world data. 
+
+The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring scorecard fairness. We also find fair in-processors to deliver a good profit-fairness balance and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost. 
 
 This repo contains codes and files that allow reproducing the results presented in the paper, performing additional analyses and extending the experimental setup. We provide implementations of eight fairness processors used in the paper. Further details on the modeling pipeline are provided in the paper as well as in the codes.
 
@@ -23,11 +28,11 @@ This repo contains codes and files that allow reproducing the results presented 
 ## Repo structure
 
 The repo has the following structure:
-- `codes/`: Python notebooks and R codes implementing data processing, fair ML algorithms and analysis of the results.
-- `data/`: input data, including the raw data sets in CSV and prepared data exported from the data processing scripts.
-- `functions/`: helper functions accompanying the codes, including a customized `aif360` Python module.
-- `output/`: figures and tables with empirical results exported from `code_14_results.R` and presented in the paper.
-- `results/`: intermediate and final results files exported from the different modeling codes.
+- `codes/`: Python notebooks and R codes implementing data processing and fair ML algorithms
+- `data/`: raw data sets and processed data exported from the data processing scripts
+- `functions/`: helper functions accompanying the codes, including a customized `aif360` Python module
+- `output/`: figures and tables with results exported from `code_14_results.R` and presented in the paper
+- `results/`: intermediate and final results files exported from the different modeling codes
 
 Further details on the code files are provided in the [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/codes/README.md) in the codes folder.
 
