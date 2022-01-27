@@ -6,11 +6,16 @@ Code and results accompanying the paper:
 
 ```
 Kozodoi, N., Jacob, J., Lessmann, S. (2021).
-Fairness in Credit Scoring: Assessment, Implementation and Profit Implications
-European Journal of Operational Research (in press)
+Fairness in Credit Scoring: Assessment, Implementation and Profit Implications.
+European Journal of Operational Research, 297, 1083-1094.
 ``` 
 
 The paper is available at the [publisher's website](https://doi.org/10.1016/j.ejor.2021.06.023). The preprint is also available [on ArXiV](https://arxiv.org/abs/2103.01907).
+
+- [Summary](#summary)
+- [Repo structure](#repo-structure)
+- [Data sets](#data-sets)
+- [Working with the repo](#working-with-the-repo)
 
 
 ## Summary
