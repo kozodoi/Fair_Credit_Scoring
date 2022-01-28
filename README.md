@@ -15,6 +15,7 @@ The paper is available at the [publisher's website](https://doi.org/10.1016/j.ej
 - [Summary](#summary)
 - [Repo structure](#repo-structure)
 - [Data sets](#data-sets)
+- [Fair ML methods](#fair-ml-methods)
 - [Working with the repo](#working-with-the-repo)
 
 
@@ -26,6 +27,8 @@ The rise of algorithmic decision-making has spawned much research on fair machin
 3. We empirically compare different fairness processors in a profit-oriented credit scoring context using real-world data. 
 
 The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring scorecard fairness. We also find fair in-processors to deliver a good profit-fairness balance and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost. 
+
+![results](https://i.postimg.cc/5yB7y21M/fair-gif.gif)
 
 This repo contains codes and files that allow reproducing the results presented in the paper, performing additional analyses and extending the experimental setup. We provide implementations of eight fairness processors used in the paper. Further details on the modeling pipeline are provided in the paper as well as in the codes.
 
@@ -47,6 +50,22 @@ Further details on the code files are provided in the [README file](https://gith
 The experiments are performed on seven credit scoring data sets obtained from different sources, including the UCI Machine Learning Repository, Kaggle and PAKDD platforms. 
 
 To respect the terms of use of the corresponding data sets and adhere to the file size limit, the raw data is not included in the repo. The full list of data sets with the download links and instructions is provided in the [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) in the data folder.
+
+
+## Fair ML methods
+
+The paper implements and banchmarks the folloeing fair ML algorithms:
+1. Pre-processors:
+  - Reweighting [(Calders et al. 2009)](https://ieeexplore.ieee.org/abstract/document/5360534)
+  - Disparate Impact Remover [(Feldman et al. 2015)](https://dl.acm.org/doi/abs/10.1145/2783258.2783311?casa_token=hPPsvh9w2QEAAAAA:RE90pNifv99Y9yCMgE4O1vOquljiAtjVCQQ3UgFDHIgcn2J21J5ry6HCv2iXXTX2Gw9e1VBbS07j)
+2. In-processors:
+  - Prejudice Remover [(Kamishima et al. 2012)](https://link.springer.com/chapter/10.1007/978-3-642-33486-3_3)
+  - Adersarial Debiasing [(Zhang et al. 2018)](https://dl.acm.org/doi/abs/10.1145/3278721.3278779)
+  - Meta-Fairness Algorithm [(Celis et al. 2019)](https://dl.acm.org/doi/abs/10.1145/3287560.3287586?casa_token=VdBhACPUHUYAAAAA:D8-vlR7Vf5QVQXyYhHB23IBjO0xrKQH64wztDghcSCUpaUwwkWeMZ2Cqu76yjLvSCVhzpjleAAnJ)
+3. Post-processors:
+  - Reject Option Classification [(Kamiran et al. 2012)](https://ieeexplore.ieee.org/abstract/document/6413831)
+  - Equalized Odds Processor [(Hardt et al. 2016)](https://papers.nips.cc/paper/2016/hash/9d2682367c3935defcb1f9e247a97c0d-Abstract.html)
+  - Platt Scaling [(Platt 1999)](https://home.cs.colorado.edu/~mozer/Teaching/syllabi/6622/papers/Platt1999.pdf), [(Barocas et al. 2019)](https://fairmlbook.org)
 
 
 ## Working with the repo
