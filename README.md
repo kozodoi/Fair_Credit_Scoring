@@ -21,16 +21,16 @@ The paper is available at the [publisher's website](https://doi.org/10.1016/j.ej
 
 ## Summary
 
-The rise of algorithmic decision-making has spawned much research on fair machine learning (ML). Financial institutions use ML for building risk scorecards that support a range of credit-related decisions. The paper makes three contributions:
-1. We revisit statistical fairness criteria and examine their adequacy for credit scoring.
-2. We catalog algorithmic options for incorporating fairness goals in the ML model development pipeline. 
-3. We empirically compare different fairness processors in a profit-oriented credit scoring context using real-world data. 
+The rise of algorithmic decision-making has spawned much research on fair machine learning (ML). Financial institutions use ML for building risk scorecards that support a range of credit-related decisions. The project makes three contributions:
+1. Revisiting statistical fairness criteria and examine their adequacy for credit scoring.
+2. Cataloging algorithmic options for incorporating fairness goals in the ML model development pipeline. 
+3. Empirically comparing multiple fairness processors in a profit-oriented credit scoring context using real-world data. 
 
 The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring scorecard fairness. We also find fair in-processors to deliver a good profit-fairness balance and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost. 
 
 ![results](https://i.postimg.cc/5yB7y21M/fair-gif.gif)
 
-This repo contains codes and files that allow reproducing the results presented in the paper, performing additional analyses and extending the experimental setup. We provide implementations of eight fairness processors used in the paper. Further details on the modeling pipeline are provided in the paper as well as in the codes.
+This repo contains codes and files that allow reproducing the results presented in the paper, performing additional analyses and extending the experimental setup. It provides implementations of eight fairness processors used in the paper. Further details on the modeling pipeline are provided in the paper as well as in the codes.
 
 
 ## Repo structure
@@ -42,14 +42,14 @@ The repo has the following structure:
 - `output/`: figures and tables with results exported from `code_14_results.R` and presented in the paper
 - `results/`: intermediate and final results files exported from the different modeling codes
 
-Further details on the code files are provided in the [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/codes/README.md) in the codes folder.
+Further details on the codes are provided in a separate [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/codes/README.md) in the codes folder.
 
 
 ## Data sets
 
 The experiments are performed on seven credit scoring data sets obtained from different sources, including the UCI Machine Learning Repository, Kaggle and PAKDD platforms. 
 
-To respect the terms of use of the corresponding data sets and adhere to the file size limit, the raw data is not included in the repo. The full list of data sets with the download links and instructions is provided in the [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) in the data folder.
+To respect the terms of use of the corresponding data sets and adhere to the file size limit, the raw data is not included in the repo. The full list of data sets with the download links and instructions is provided in a separate [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) in the data folder.
 
 
 ## Fair ML methods
