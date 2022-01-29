@@ -4,7 +4,7 @@
 #                                 
 ###################################
 
-# This code implements equalized odds processor. The intermediate results are 
+# This code implements Equalized Odds Processor. The intermediate results are 
 # imported from the files saved in `code_08_postprocess1.R`. The code saves final 
 # results for equalized odds processor in `results`.
 

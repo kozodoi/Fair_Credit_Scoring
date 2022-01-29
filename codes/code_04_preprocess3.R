@@ -4,7 +4,7 @@
 #                                 
 ###################################
 
-# This code performs meta-parameter tuning of disparate impact remover by comparing
+# This code performs meta-parameter tuning of Disparate Impact Remover. It compares
 # multiple variants of this pre-processor in terms of the EMP on validation folds.
 # The intermediate results are imported from the files exported in `code_02_preprocess2.R`.
 # The code saves final results for disparate impact remover in `results`.

@@ -4,7 +4,7 @@
 #                                 
 ###################################
 
-# This code implements Platt scaling. The intermediate results are imported from 
+# This code implements Platt Scaling. The intermediate results are imported from 
 # the files saved in `code_08_postprocess1.R`. The code saves final results for 
 # Platt scaling in `results`.
 

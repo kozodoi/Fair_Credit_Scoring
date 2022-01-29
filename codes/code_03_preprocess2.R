@@ -5,10 +5,10 @@
 ###################################
 
 # This code implements a set of base classifiers using fair pre-processed data
-# by two pre-processors: reweighing and disparate impact remover. Pre-processed  
+# by two pre-processors: Reweighting and Disparate Impact Remover. Pre-processed  
 # data are imported from the files saved in `code_01_preprocess1.ipynb`. The code
-# saves intermediate results for disparate impact remover and final results for 
-# reweighing in the corresponding subfolders in `results`.
+# saves intermediate results for Disparate Impact Remover and final results for 
+# Reweighting in the corresponding subfolders in `results`.
 
 
 
@@ -89,7 +89,6 @@ for (method in c('RW', 'DI')) {
     #---- PREPARATIONS ----
 
     # feedback
-
     print('----------------------------------------')
     print(paste0('METHOD: ', method, ' | FOLD: ', fold))
     print('----------------------------------------')      

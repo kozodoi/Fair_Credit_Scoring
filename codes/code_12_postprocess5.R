@@ -4,7 +4,7 @@
 #                                 
 ###################################
 
-# This code processes intermediate results of reject option classification imported 
+# This code processes intermediate results of Reject Option Classification imported 
 # from the files saved in `code_11_postprocess4.ipynb`. The code saves final results for 
 # reject option classification in `results`.
 

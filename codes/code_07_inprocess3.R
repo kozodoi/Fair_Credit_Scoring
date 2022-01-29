@@ -4,9 +4,13 @@
 #                                 
 ###################################
 
-# This code performs meta-parameter tuning of three in-processors: prejudice remover,
-# meta fair algorithm and adversarial debiasing by comparing their EMP on validation 
-# folds. The intermediate results are imported from the files exported in `code_04_inprocess1.ipynb`
+# This code performs meta-parameter tuning of three in-processors: 
+# - Prejudice Remover
+# - Meta-Fair Algorithm
+# - Adversarial Debiasing
+#
+# The code compares the EMP of these in-processors on validation folds. 
+# The intermediate results are imported from the files exported in `code_04_inprocess1.ipynb`
 # and `code_05_inprocess2.ipynb`. The code saves final results for in-processors
 # in `results`.
 
