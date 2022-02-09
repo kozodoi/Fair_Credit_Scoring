@@ -6,11 +6,7 @@
 *.ipynb_checkpoints*
 
 data/raw/bene.csv
-data/raw/german.csv
-data/raw/gmsc.csv
 data/raw/homecredit.csv
-data/raw/pkdd.csv
-data/raw/taiwan.csv
 data/raw/uk.csv
 
 data/prepared/bene_*
