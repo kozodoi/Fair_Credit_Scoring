@@ -82,6 +82,7 @@ avgOddsDiff <- function(sens.attr      = df$AGE,
   TPR_priv  <- TP_priv / (TP_priv+FN_priv)
   
   # compute difference
+  # note that TPR_un - TPR_priv is equivalent to FNR_priv - FNR_un
   if (length(((FPR_un - FPR_priv) + (TPR_un - TPR_priv))/2) > 0) {
     return(abs(((FPR_un - FPR_priv) + (TPR_un - TPR_priv))/2))
   }else{

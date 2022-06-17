@@ -8,9 +8,11 @@ Code and results accompanying the paper:
 Kozodoi, N., Jacob, J., Lessmann, S. (2021).
 Fairness in Credit Scoring: Assessment, Implementation and Profit Implications.
 European Journal of Operational Research, 297, 1083-1094.
-``` 
+```
 
-The paper is available at the [publisher's website](https://doi.org/10.1016/j.ejor.2021.06.023). The preprint is also available [on ArXiV](https://arxiv.org/abs/2103.01907).
+The paper is available at the [publisher's website](https://doi.org/10.1016/j.ejor.2021.06.023) and [on arXiv](https://arxiv.org/abs/2103.01907).
+
+**Note:** the PDF on the [publisher's website](https://doi.org/10.1016/j.ejor.2021.06.023) contains a typo in Equation 5 (the group subscripts in the last term should be swapped). Please refer to the [arXiv](https://arxiv.org/abs/2103.01907) preprint and/or the code in this repo for the correct version.
 
 - [Summary](#summary)
 - [Repo structure](#repo-structure)
@@ -23,10 +25,10 @@ The paper is available at the [publisher's website](https://doi.org/10.1016/j.ej
 
 The rise of algorithmic decision-making has spawned much research on fair machine learning (ML). Financial institutions use ML for building risk scorecards that support a range of credit-related decisions. The project makes three contributions:
 1. Revisiting statistical fairness criteria and examine their adequacy for credit scoring.
-2. Cataloging algorithmic options for incorporating fairness goals in the ML model development pipeline. 
-3. Empirically comparing multiple fairness processors in a profit-oriented credit scoring context using real-world data. 
+2. Cataloging algorithmic options for incorporating fairness goals in the ML model development pipeline.
+3. Empirically comparing multiple fairness processors in a profit-oriented credit scoring context using real-world data.
 
-The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring scorecard fairness. We also find fair in-processors to deliver a good profit-fairness balance and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost. 
+The empirical results substantiate the evaluation of fairness measures, identify suitable options to implement fair credit scoring, and clarify the profit-fairness trade-off in lending decisions. We find that multiple fairness criteria can be approximately satisfied at once and recommend separation as a proper criterion for measuring scorecard fairness. We also find fair in-processors to deliver a good profit-fairness balance and show that algorithmic discrimination can be reduced to a reasonable level at a relatively low cost.
 
 ![results](https://i.postimg.cc/5yB7y21M/fair-gif.gif)
 
@@ -47,7 +49,7 @@ Further details on the codes are provided in a separate [README file](https://gi
 
 ## Data sets
 
-The experiments are performed on seven credit scoring data sets obtained from different sources, including the UCI Machine Learning Repository, Kaggle and PAKDD platforms. 
+The experiments are performed on seven credit scoring data sets obtained from different sources, including the UCI Machine Learning Repository, Kaggle and PAKDD platforms.
 
 To respect the terms of use of the corresponding data sets and adhere to the file size limit, the raw data is not included in the repo. The full list of data sets with the download links and instructions is provided in a separate [README file](https://github.com/kozodoi/Fair_Credit_Scoring/blob/main/data/README.md) in the data folder.
 
